@@ -62,10 +62,7 @@ plt.show()
 
 # Q4
 
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-url ="https://raw.githubusercontent.com/AnjulaMehto/MCA/main/company_sales_data.csv"
+url = "https://raw.githubusercontent.com/AnjulaMehto/MCA/main/company_sales_data.csv"
 data = pd.read_csv(url)
 data.head()
 
